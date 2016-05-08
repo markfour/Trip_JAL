@@ -7,6 +7,12 @@ using UnityEngine.SceneManagement;
 /// Game manager.
 /// </summary>
 public class GameManager : MonoBehaviour {
+	public static string tripFile = "";
+
+	// getter
+	public static int getTripFile() {
+		return tripFile;
+	}
 
 	[SerializeField] bool m_isSendMsg = false;
 
